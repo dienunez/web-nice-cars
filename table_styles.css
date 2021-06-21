@@ -1,0 +1,19 @@
+table.custom
+{
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: separate;
+  border-spacing: 20px 0px;
+}
+
+table.price
+{
+  color: blue;
+  font-size: 150%;
+  font-weight: bold;
+}
+
+table.specs
+{
+  color: white;
+}

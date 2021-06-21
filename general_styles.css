@@ -1,0 +1,96 @@
+body
+{
+  margin: 0px 0px;
+  text-align: center;
+  background-image: url(fotos/background.jpg);
+  background-size: cover;
+  height: auto;
+  position: relative;
+}
+
+header
+{
+  background-color: white;
+  height: 13vh;
+}
+
+footer
+{
+  text-align: center;
+  color: grey;
+  background-color: white;
+  font-size: 100%;
+  margin: 0px;
+  height:28vh;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+a.nav
+{
+  color: black;
+  font-weight: normal;
+  font-size: 4vh;
+  align-content: center;
+  padding: 10px;
+  position: relative;
+}
+
+a.home
+{
+  color:red;
+  font-weight: bold;
+  font-size: 4vh;
+  align-content: center;
+  padding: 10px;
+  position: relative;
+}
+
+nav
+{
+  background-image: url(fotos/nav_background.jpg);
+  align-content: center;
+  height: 10vh;
+}
+
+div.headerleft
+{
+  width: 50%;
+  height: 100%;
+  float: left;  
+}
+
+div.headerright
+{
+  width: 50%;
+  height: 100%;
+  float: right; 
+}
+
+div.login
+{
+  width: 15%;
+  height: 100%;
+  float: right;
+}
+
+div.h1
+{
+  width: 85%;
+  height: 100%;
+  float: left;
+}
+
+u.index
+{
+  font-size: 200%;
+  text-align: left;
+  color:white;
+  font-weight: normal;
+}
+
+label
+{
+  color: beige;
+}

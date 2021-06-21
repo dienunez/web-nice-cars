@@ -1,0 +1,38 @@
+h1
+{
+  font-size: 2.5vw;
+  float: right;
+  font-family:'Segoe UI', Arial, sans-serif;
+  font-weight: normal;
+  color: grey;
+}
+
+h2.custom
+{
+  color: white;
+  font-size: 200%;
+  font-weight: normal;
+}
+
+h3.custom
+{
+  color: white;
+  font-size: 150%;
+  font-weight: normal;
+}
+
+legend.custom
+{
+  font-size: 200%;
+  text-align: left;
+  color: grey;
+  font-weight: bold;
+}
+
+legend.form
+{
+  font-size: 150%;
+  text-align: left;
+  color:white;
+  font-weight: bold;
+}

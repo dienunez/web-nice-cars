@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Nice Cars</title>
+  <link rel="stylesheet" href="general_styles.css">
+  <link rel="stylesheet" href="table_styles.css">
+  <link rel="stylesheet" href="title_styles.css">
+  <link rel="stylesheet" href="image_styles.css">
+</head>
+<body>
+    <header>
+        <div class="headerleft">
+            <a href="index.html">
+                <img src="fotos/logo.png" class="logo">
+            </a>
+        </div>
+
+        <div class="headerright">
+            <div class="h1">
+                <h1>Portal de venta de autos 0km</h1>
+            </div>
+            <div class="login">
+                <a href="registrar.html">
+                    <img src="fotos/login_button.png" class="login">
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <br>
+        <a class="nav" href="acerca.html">Acerca de</a>
+        <a class="nav" href="contacto.html">Contacto</a>
+        <a class="nav" href="registrar.html">Regístrese</a>
+        <a class="nav" href="sucursales.html">Sucursales</a>
+    </nav> 
+
+    <h3 class="custom">Para una mejor atención le pedimos que ingrese los siguientes datos y nos estaremos comunicando a la brevedad</h3>
+
+    <fieldset>
+        <legend class="custom">Formulario de registro</legend>
+
+        <form action="show_data.html" style="text-align: left; padding: 10px;">
+            <fieldset>
+                <legend class="form">Datos Personales</legend>
+                    <label for="fname"><b>Nombre: </b></label><input type="text" id="fname" name="fname" value="" placeholder="Ingrese su nombre aquí"><br><br>
+                    <label for="lname"><b>Apellido: </b></label><input type="text" id="lname" name="lname" value="" placeholder="Ingrese su apellido aquí"><br><br>
+                    <label for="gender"><b>Género: </b></label>
+                        <br>
+                        <input type="radio" name="gender" value="hombre" checked><u style="color: white;">Hombre</u>
+                        <br>
+                        <input type="radio" name="gender" value="Mujer"><u style="color: white;">Mujer</u>
+                        <br>
+                        <input type="radio" name="gender" value="Otro"><u style="color: white;">Otro</u>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend class="form">Datos de Contacto</legend>
+                <label for="street"><b>Direccion: </b></label><input type="text" name="address" placeholder="Ingrese su dirección aquí"><br><br>
+                <label for="city"><b>Ciudad: </b></label><input type="text" name="city" value="" ><br><br>
+                <label for="zipcode"><b>Código Postal: </b></label><input type="text" name="zipcode" placeholder="Ingrese su codigo postal aqui"><br><br>
+                <label for="tel"><b>Teléfono: </b></label><input type="number" id="tel" name="tel" value="" placeholder="Ingrese su n° de teléfono"><br><br>
+                <label for="mail"><b>Dirección de correo: </b></label><input type="email" id="mail" name="mail" value="" placeholder="Ingrese su email"><br><br>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend class="form">Información adicional</legend>
+                <label for="comment"><b>Comentario: </b></label><br>
+                <textarea name="comentario" rows="5" cols="50" placeholder="Escriba aquí su comentario"></textarea><br><br>
+            </fieldset>
+            <br>
+            <br>
+            <input style="float: right;" type="image" src="fotos/red-submit-button.png" value="Submit" width="200" height="64">
+        </form>
+    </fieldset>
+    <br>
+    <br>
+    <a class="home" href="index.html">Volver al Home</a>
+    <br>
+    <br>
+    <footer>
+        <br>
+        <h4 style="margin: 0px; font-weight: normal;">Buscanos en: </h4>
+        <br>
+        <table align="center">
+            <tr>
+                <th>Facebook -</th>
+                <th> Instagram -</th>
+                <th> Twitter -</th>
+                <th> Correo</th>
+            </tr>
+            <tr>
+                <td>
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img src="fotos/facebook.png" style="width: 20px;height: 20px;">
+                    </a>
+                </td>
+                <td>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img src="fotos/instagram.png" style="width: 20px;height: 20px;">
+                    </a>
+                </td>
+                <td>
+                    <a href="https://www.twitter.com/" target="_blank">
+                        <img src="fotos/twitter.png" style="width: 20px;height: 20px;">
+                    </a>
+                </td>
+                <td>
+                    <a href="https://www.gmail.com/" target="_blank">
+                        <img src="fotos/gmail.png" style="width: 20px;height: 20px;">
+                    </a>
+                </td>
+            </tr>
+        </table>
+        <br>
+        <h4 style="margin: 0px; font-weight: normal;">Diego Nuñez - Derechos Reservados @2020</h4>
+        <br>
+    </footer>
+</body>
+</html>
